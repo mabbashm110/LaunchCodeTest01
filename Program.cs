@@ -54,9 +54,15 @@ namespace LaunchCode_Test
         }
         static void Main(string[] args)
         {
-            float d = float.Parse(Console.ReadLine());
-            Console.WriteLine("{0:0.0}",d);
-            Console.ReadKey();
+
+            DataTypesHR(12.00, 20, 8);  //Hackerrank challenge 3 - 35 mins
+
+
+
+
+            //float d = float.Parse(Console.ReadLine());
+            //Console.WriteLine("{0:0.0}",d);
+            //Console.ReadKey();
             //if (int.Parse("a") > int.Parse("b"))
             //{
             //    Console.WriteLine("true");
@@ -86,6 +92,23 @@ namespace LaunchCode_Test
             tw.Flush();
             tw.Close();
             */
+        }
+
+        public static void DataTypesHR(double mealCost, double tipPercent, double taxPercent)
+        {
+            //Hackerrank 30 days - challenge 03
+            mealCost = double.Parse(Console.ReadLine());
+            tipPercent = double.Parse(Console.ReadLine());
+            taxPercent = double.Parse(Console.ReadLine());
+
+            tipPercent = mealCost * (tipPercent / 100);
+
+            taxPercent = mealCost * (taxPercent / 100);
+
+            double totalCost = mealCost + tipPercent + taxPercent;
+            totalCost = Math.Round(totalCost);
+            Console.WriteLine("The total meal cost is {0:0}", totalCost + " dollars.");
+            Console.ReadKey();
         }
     }
 }
