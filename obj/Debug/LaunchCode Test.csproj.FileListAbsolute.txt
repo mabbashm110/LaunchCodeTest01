@@ -1,0 +1,6 @@
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\bin\Debug\LaunchCode Test.exe.config
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\obj\Debug\LaunchCode Test.csprojResolveAssemblyReference.cache
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\bin\Debug\LaunchCode Test.exe
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\bin\Debug\LaunchCode Test.pdb
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\obj\Debug\LaunchCode Test.exe
+D:\VSTS\ALG\LaunchCode Test\LaunchCode Test\obj\Debug\LaunchCode Test.pdb
